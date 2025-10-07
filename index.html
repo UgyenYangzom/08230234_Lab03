@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ugyen Yangzom - Portfolio (Dark Mode Ready)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Ugyen Yangzom</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Dark/Light Mode Toggle -->
+      <button id="mode-toggle" class="btn small" aria-pressed="false">🌙 Dark Mode</button>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="home">
+    <div class="intro">
+      <!-- Replace the src with your real image filename -->
+      <img src="photo_2025-10-08_01-04-41.jpg" alt="Profile photo" class="section-img">
+      <h1>Hello, I'm <span>Ugyen Yangzom</span></h1>
+      <p id="dynamic-text">ICT Student | Creative Learner | Future Developer</p>
+      <a href="#contact" class="btn">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <img src="photo_2025-10-08_01-04-29.jpg" alt="About Me" class="section-img">
+    <p>
+      Hi! My name is <strong>Ugyen Yangzom</strong>, a tech enthusiast from Samtse College.
+      I'm driven by curiosity, creativity, and a passion for solving real-world challenges through technology.
+    </p>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="education">
+    <h2>Education</h2>
+    <img src="photo_2025-10-08_01-03-38.jpg" alt="Education" class="section-img">
+    <ul>
+      <li>Currently studying at <strong>Samtse College</strong></li>
+      <li>Completed higher studies at <strong>Jigme Sherubling HSS</strong></li>
+      <li>Studied at <strong>Gongthung MSS</strong></li>
+    </ul>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <img src="photo_2025-10-08_01-03-23.jpg" alt="Skills" class="section-img">
+    <div class="skills-container">
+      <div class="skill-card">
+        <h3>Technical Skills</h3>
+        <ul>
+          <li>Python Programming</li>
+          <li>HTML & CSS</li>
+          <li>Adobe Photoshop</li>
+          <li>ICT Fundamentals</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3>Soft Skills</h3>
+        <ul>
+          <li>Teamwork</li>
+          <li>Creativity</li>
+          <li>Communication</li>
+          <li>Adaptability</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <img src="photo_2025-10-08_01-04-15.jpg" alt="Projects" class="section-img">
+    <div class="project-list">
+      <div class="project-card">
+        <h3>Fire Alarm (Physics Project)</h3>
+        <p>Designed a fire alarm model using teamwork and creativity.</p>
+      </div>
+      <div class="project-card">
+        <h3>Live Coding Demo</h3>
+        <p>Showcased Python OOP concepts such as inheritance and methods in a group project.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <p>Or email me directly at:
+      <a href="mailto:Ugyen.Yangzom@example.com">Ugyen.Yangzom@example.com</a>
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Ugyen Yangzom | All Rights Reserved</p>
+  </footer>
+
+  <!-- External JS (loaded last so DOM elements exist) -->
+  <script src="script.js"></script>
+</body>
+</html>
